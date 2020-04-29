@@ -1,17 +1,43 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import "./assets/style.css";
+import quizService from "./quizService";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+class TransformersQuiz extends Component {
+    state = {
+        questionBank: []
+    };
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+    /**
+     * Function getQuestions
+     * Invokes quiz service api and populates questionBank variable with the results
+     */
+    getQuestions = () => {
+        quizService().then(question => {
+            this.setState({
+                questionBank: question
+            });
+        });
+    };
+
+    /**
+     * Function componentDidMount
+     * Run getQuestions function when this component loads up
+     */
+    componentDidMount() {
+        this.getQuestions();
+    }
+
+    render() {
+        return (
+            <div className="Container">
+                <div className="title">Transformers Quiz</div>
+                {this.state.questionBank.length > 0 && 
+                    this.state.questionBank.map(
+                        ({question, answers, correct, questionId}) => (<h4>{question}</h4>))}
+            </div>
+        )
+    }
+}
+
+ReactDOM.render(<TransformersQuiz />, document.getElementById("root"));
