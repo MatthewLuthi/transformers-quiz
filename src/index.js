@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./assets/style.css";
 import quizService from "./quizService";
 import QuestionBox from "./components/QuestionBox";
+import Result from "./components/Result";
 
 class TransformersQuiz extends Component {
     state = {
@@ -35,6 +36,14 @@ class TransformersQuiz extends Component {
         });
     };
 
+    playAgain = () => {
+        this.getQuestions();
+        this.setState({
+            score: 0,
+            responses: 0
+        });
+    }
+
     /**
      * Function componentDidMount
      * Run getQuestions function when this component loads up
@@ -59,7 +68,8 @@ class TransformersQuiz extends Component {
                             />
                         ))}
 
-                {this.state.responses === 5 ? (<h2>{this.state.score}</h2>) : null}
+                {this.state.responses === 5 ? (
+                    <Result score={this.state.score} playAgain={this.playAgain} />) : null}
             </div>
         )
     }
