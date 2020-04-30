@@ -1,9 +1,9 @@
 const qBank = [
   {
     question:
-      "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-    answers: ["Richard Branson", "Alan Sugar", "Donald Trump", "Bill Gates"],
-    correct: "Richard Branson",
+      "What year did the Transformers live action movie release?",
+    answers: ["2010", "2008", "2005", "2007"],
+    correct: "2007",
     questionId: "099099"
   },
   {
@@ -15,76 +15,76 @@ const qBank = [
   },
   {
     question:
-      "Which company did Valve cooperate with in the creation of the Vive?",
-    answers: ["HTC", "Oculus", "Google", "Razer"],
-    correct: "HTC",
+      "What did Optimus Prime transform into?",
+    answers: ["18 Wheeler", "Gun", "Bus", "Plane"],
+    correct: "18 Wheeler",
     questionId: "267908"
   },
   {
-    question: "What's the name of Batman's  parents?",
+    question: "Who was the leader of the Autobots?",
     answers: [
-      "Thomas & Martha",
-      "Joey & Jackie",
-      "Jason & Sarah",
-      "Todd & Mira"
+      "Frenzy",
+      "Megatron",
+      "Optimus Prime",
+      "Starscream"
     ],
-    correct: "Thomas & Martha",
+    correct: "Optimus Prime",
     questionId: "333247"
   },
   {
-    question: "What is the most common surname Wales?",
-    answers: ["Jones", "Williams", "Davies", "Evans"],
-    correct: "Jones",
+    question: "What R&B singer played a role in the Transformers live action film?",
+    answers: ["Trey Songs", "Tyrese Gibson", "Chris Brown", "Prince"],
+    correct: "Tyrese Gibson",
     questionId: "496293"
   },
   {
     question:
-      "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+      "How many Transformers movies have been made since the year 2011?",
     answers: [
-      "Demolition",
-      "The Dream Team",
-      "The Bushwhackers",
-      "The British Bulldogs"
+      "1",
+      "4",
+      "3",
+      "2"
     ],
-    correct: "Demolition",
+    correct: "3",
     questionId: "588909"
   },
   {
     question:
-      'What name represents the letter "M" in the NATO phonetic alphabet?',
-    answers: ["Mike", "Matthew", "Mark", "Max"],
-    correct: "Mike",
+      'Who was the leader of the Decepticons?',
+    answers: ["Megatron", "Bumblebee", "Starscream", "Bonecrusher"],
+    correct: "Megatron",
     questionId: "648452"
   },
   {
-    question: "What is the first book of the Old Testament?",
-    answers: ["Genesis", "Exodus", "Leviticus", "Numbers"],
-    correct: "Genesis",
+    question: "What kind of Transformers car did the teenage boy own?",
+    answers: ["Charger", "Corvette", "Mustang", "Camaro"],
+    correct: "Camaro",
     questionId: "786649"
   },
   {
     question:
-      "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
-    answers: ["Key", "Sword", "Pen", "Cellphone"],
-    correct: "Key",
+      "What was the name of the Transformers home planet?",
+    answers: ["Mars", "Suntronics", "Cybertron", "Trans Earth"],
+    correct: "Cybertron",
     questionId: "839754"
   },
   {
     question:
-      "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
+      "Who was the teenage boy that was friends with the Autobots?",
     answers: [
-      "Cabbage Patch Kids",
-      "Transformers",
-      "Care Bears",
-      "Rubik’s Cube"
+      "Phillip",
+      "Tron",
+      "Sam",
+      "Tim"
     ],
-    correct: "Cabbage Patch Kids",
+    correct: "Sam",
     questionId: "98390"
   },
   {
-    question: "What does a funambulist walk on?",
-    answers: ["A Tight Rope", "Broken Glass", "Balls", "The Moon"],
-    correct: "A Tight Rope",
+    question: "What was the Transformers cartoon called in Japan?",
+    answers: ["Fight! Super Robot Life Form Transformers", "Robots from space", "Warcraft Force Changers", "Transform"],
+    correct: "Fight! Super Robot Life Form Transformers",
     questionId: "1071006"
   },
   {
