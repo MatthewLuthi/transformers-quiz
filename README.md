@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/MatthewLuthi/transformers-quiz.svg?branch=master)](https://travis-ci.com/MatthewLuthi/transformers-quiz)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
