@@ -8,9 +8,9 @@ const qBank = [
   },
   {
     question:
-      'Where is the train station "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch"?',
-    answers: ["Wales", "Moldova", "Czech Republic", "Denmark"],
-    correct: "Wales",
+      "Who has directed all the transformers live action films?",
+    answers: ["Michael Bay", "Martin Scorsese", "Steven Spielberg", "Quentin Tarantino"],
+    correct: "Michael Bay",
     questionId: "183452"
   },
   {
@@ -88,46 +88,46 @@ const qBank = [
     questionId: "1071006"
   },
   {
-    question: "In past times, what would a gentleman keep in his fob pocket?",
-    answers: ["Watch", "Money", "Keys", "Notebook"],
-    correct: "Watch",
+    question: "What is the name of Sam's dog?",
+    answers: ["Rex", "Riley", "Mojo", "Buster"],
+    correct: "Mojo",
     questionId: "1174154"
   },
   {
-    question: "Area 51 is located in which US state?",
-    answers: ["Nevada", "Arizona", "New Mexico", "Utah"],
-    correct: "Nevada",
+    question: "Who did Sentinel Prime kill in Tranformers: Dark Of The Moon?",
+    answers: ["Bumblebee", "Ironhide", "Starscream", "Shockwave"],
+    correct: "Ironhide",
     questionId: "1226535"
   },
   {
-    question: "How would one say goodbye in Spanish?",
-    answers: ["Adiós", " Hola", "Au Revoir", "Salir"],
-    correct: "Adiós",
+    question: "Who's gun did Optimus Prime use to kill Sentinel Prime?",
+    answers: ["Soundwave", " Megatron", "Shockwave", "Starscream"],
+    correct: "Megatron",
     questionId: "1310938"
   },
   {
-    question: "What is the largest organ of the human body?",
-    answers: ["Skin", "Heart", "large Intestine", "Liver"],
-    correct: "Skin",
+    question: "What is Mark Wahlberg's character called?",
+    answers: ["Cade Yeager", "Samuel James Witwicky", "Lucas", "Joshua"],
+    correct: "Cade Yeager",
     questionId: "1436873"
   },
   {
-    question: "Which sign of the zodiac is represented by the Crab?",
-    answers: ["Cancer", "Libra", "Virgo", "Sagittarius"],
-    correct: "Cancer",
+    question: "What band plays the theme song for Transformers: Age of Extinction?",
+    answers: ["Red Hot Chilli Peppers", "Pink Floyd", "AC/DC", "Imagine Dragons"],
+    correct: "Imagine Dragons",
     questionId: "1515110"
   },
   {
-    question: "On a dartboard, what number is directly opposite No. 1?",
-    answers: ["19", "20", "12", "15"],
-    correct: "19",
+    question: "What college does Sam go to?",
+    answers: ["Princeton University", "UCLA", "Columbia University", "Duke University"],
+    correct: "Princeton University",
     questionId: "1642728"
   },
   {
     question:
-      "What does the 'S' stand for in the abbreviation SIM, as in SIM card? ",
-    answers: ["Subscriber", "Single", "Secure", "Solid"],
-    correct: "Subscriber",
+      "Who died from Lockdown's grenade? ",
+    answers: ["Cade", "Tessa", "Lucas", "Joshua"],
+    correct: "Lucas",
     questionId: "1747256"
   },
   {
